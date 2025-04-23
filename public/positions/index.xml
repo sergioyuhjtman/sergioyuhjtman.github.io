@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Positions on Sergio Yuhjtman</title>
+    <link>http://localhost:45913/positions/</link>
+    <description>Recent content in Positions on Sergio Yuhjtman</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:45913/positions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:45913/positions/__index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45913/positions/__index/</guid>
+      <description>&lt;p&gt;Intro de positions&lt;/p&gt;&#xA;&lt;p&gt;Bola de pool como esfera, acaso lo máximo a lo que podemos aspirar para una teoría&#xA;física.&lt;/p&gt;&#xA;&lt;p&gt;Consistencia matemática y buena definición de modelos como guía para desarrollar&#xA;la física. ¿Ejemplos de esto?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

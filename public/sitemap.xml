@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:42597/papers/</loc>
+  </url><url>
+    <loc>http://localhost:42597/viewpoints/</loc>
+  </url><url>
+    <loc>http://localhost:42597/viewpoints/notes/</loc>
+  </url><url>
+    <loc>http://localhost:42597/categories/</loc>
+  </url><url>
+    <loc>http://localhost:42597/papers/procacci---yuhjtman/</loc>
+  </url><url>
+    <loc>http://localhost:42597/papers/afy/</loc>
+  </url><url>
+    <loc>http://localhost:42597/tags/</loc>
+  </url><url>
+    <loc>http://localhost:42597/</loc>
+  </url>
+</urlset>

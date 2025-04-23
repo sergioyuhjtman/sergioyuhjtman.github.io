@@ -1,0 +1,48 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = 'Sergio Yuhjtman'
+theme = "soho"
+
+[params]
+  author = "Sergio Yuhjtman"
+  description = "Personal website"
+  profilePicture = "images/me.jpg"
+  mathjax = true
+
+[[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/sergio-yuhjtman-082a571a1/"
+
+[[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/sergioyuhjtman/"
+
+[[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://x.com/Syuhjtman"
+  
+[[params.socialIcons]]
+  icon = "fa-telegram"
+  title = "Telegram"
+  url = "https://t.me/sergioyuhjtman"
+  
+[menu]
+
+  [[menu.main]]
+    name = "Selected papers explained"
+    url = "/papers/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Personal viewpoints"
+    url = "/viewpoints/"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
