@@ -1,8 +1,6 @@
 ## Selected papers explained
 
-Research papers are typically addressed to specialized audiences.
-This is necessary, but it has a huge drawback: many people who might appreciate them
-are left out. The idea here is to introduce the content of some of my papers to a broader audience.
+Research papers are typically addressed to specialized audiences. While this is necessary, it comes with a significant drawback: many people who might appreciate them are left out. The idea here is to introduce the content of some of my papers to a broader audience
 
 ### Mathematical physics
 

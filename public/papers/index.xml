@@ -9,9 +9,9 @@
     <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convergence of Mayer and Virial expansions...</title>
-      <link>http://localhost:1313/papers/procacci---yuhjtman/</link>
+      <link>http://localhost:1313/papers/procacci-yuhjtman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/procacci---yuhjtman/</guid>
+      <guid>http://localhost:1313/papers/procacci-yuhjtman/</guid>
       <description>&lt;h3 id=&#34;convergence-of-mayer-and-virial-expansions-and-the-penrose-tree-graph-identity&#34;&gt;&amp;ldquo;Convergence of Mayer and Virial expansions and the Penrose tree-graph identity&amp;rdquo;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;by-aldo-procacci-sergio-yuhjtman&#34;&gt;by &lt;em&gt;Aldo Procacci, Sergio Yuhjtman.&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;h3 id=&#34;review-by-sergio-yuhjtman&#34;&gt;Review by Sergio Yuhjtman&lt;/h3&gt;&#xA;&lt;p&gt;The subject belongs to the area of statistical mechanics.&lt;/p&gt;&#xA;&lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;&#xA;&lt;p&gt;Consider a gas in a cubic box. If the interaction between the molecules is negligible, it is an ideal gas. You may be familiar with the equation of state&#xA;$$pV = nRT$$ which relates pressure, volume, temperature and number of particles.&#xA;For the case where the interactions are significant, the equation of state will be different. There is a model that is known to be valid since the 1930s. It describes molecules as points in a continuous (cubic) space.&#xA;The interaction is determined by an energy function $V$ with the following shape&lt;/p&gt;</description>
     </item>
     <item>

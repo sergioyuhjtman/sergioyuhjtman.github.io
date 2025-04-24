@@ -36,7 +36,7 @@ We are interested in understanding the relation between density and pressure in 
 When the density is sufficiently low, this can be done through a technique known as "cluster expansion" or "virial expansion". In this technique, the logarithm of the denominator of the probability density (a.k.a. the logarithm of the partition function)
 is expressed as a power series on $\lambda$, where the $n$-th term is a sum over connected graphs with $n$ vertices. In this way, the problem of finding the equation of state reduces to the convergence of this series, since pressure and density can be derived from it. 
 The ideal gas case corresponds to $\beta = 0$. For $\beta > 0$,
-if we can find a non-empty convergence region for $\lambda$ this means that there is no phase transition between the ideal gas and our system, implying that the macroscopic system is a gas.
+if we can find a non-empty convergence region for $\lambda$ this means that there is no phase transition between the ideal gas and our system, implying that it is a gas.
 
 #### Some context about the solutions
   This problem was first solved in 1963 by D. Ruelle and independently (or correlatedly) by O. Penrose. Later, O. Penrose developed a combinatorial method to solve special cases, namely imposing some extra restrictions to the pair potential (the energy function above). The essence of this combinatorial method is to reduce the sums over connected graphs to only the trees, which are much less. Further investigations of this method followed.
