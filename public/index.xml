@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on Sergio Yuhjtman</title>
-    <link>http://localhost:42597/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Welcome on Sergio Yuhjtman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:42597/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:42597/viewpoints/notes/</link>
+      <link>http://localhost:1313/viewpoints/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42597/viewpoints/notes/</guid>
+      <guid>http://localhost:1313/viewpoints/notes/</guid>
       <description>&lt;p&gt;Intro de viewpoints&lt;/p&gt;&#xA;&lt;p&gt;Bola de pool como esfera, acaso lo máximo a lo que podemos aspirar para una teoría&#xA;física.&lt;/p&gt;&#xA;&lt;p&gt;Consistencia matemática y buena definición de modelos como guía para desarrollar&#xA;la física. ¿Ejemplos de esto?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convergence of Mayer and Virial expansions...</title>
-      <link>http://localhost:42597/papers/procacci---yuhjtman/</link>
+      <link>http://localhost:1313/papers/procacci---yuhjtman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42597/papers/procacci---yuhjtman/</guid>
+      <guid>http://localhost:1313/papers/procacci---yuhjtman/</guid>
       <description>&lt;h3 id=&#34;convergence-of-mayer-and-virial-expansions-and-the-penrose-tree-graph-identity&#34;&gt;&amp;ldquo;Convergence of Mayer and Virial expansions and the Penrose tree-graph identity&amp;rdquo;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;by-aldo-procacci-sergio-yuhjtman&#34;&gt;by &lt;em&gt;Aldo Procacci, Sergio Yuhjtman.&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;h3 id=&#34;review-by-sergio-yuhjtman&#34;&gt;Review by Sergio Yuhjtman&lt;/h3&gt;&#xA;&lt;p&gt;The subject belongs to the area of statistical mechanics.&lt;/p&gt;&#xA;&lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;&#xA;&lt;p&gt;Consider a gas in a cubic box. If the interaction between the molecules is negligible, it is an ideal gas. You may be familiar with the equation of state&#xA;$$pV = nRT$$ which relates pressure, volume, temperature and number of particles.&#xA;For the case where the interactions are significant, the equation of state will be different. There is a model that is known to be valid since the 1930s. It describes molecules as points in a continuous (cubic) space.&#xA;The interaction is determined by an energy function $V$ with the following shape&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaussian random permutation and the boson point process</title>
-      <link>http://localhost:42597/papers/afy/</link>
+      <link>http://localhost:1313/papers/afy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42597/papers/afy/</guid>
-      <description>&lt;p&gt;Gaussian random permutation and the boson point process&lt;/p&gt;</description>
+      <guid>http://localhost:1313/papers/afy/</guid>
+      <description>&lt;p&gt;Coming sooner or later&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

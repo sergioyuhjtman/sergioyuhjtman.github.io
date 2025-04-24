@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42597/papers/</loc>
+    <loc>http://localhost:1313/papers/</loc>
   </url><url>
-    <loc>http://localhost:42597/viewpoints/</loc>
+    <loc>http://localhost:1313/viewpoints/</loc>
   </url><url>
-    <loc>http://localhost:42597/viewpoints/notes/</loc>
+    <loc>http://localhost:1313/viewpoints/notes/</loc>
   </url><url>
-    <loc>http://localhost:42597/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:42597/papers/procacci---yuhjtman/</loc>
+    <loc>http://localhost:1313/papers/procacci---yuhjtman/</loc>
   </url><url>
-    <loc>http://localhost:42597/papers/afy/</loc>
+    <loc>http://localhost:1313/papers/afy/</loc>
   </url><url>
-    <loc>http://localhost:42597/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:42597/</loc>
+    <loc>http://localhost:1313/</loc>
   </url>
 </urlset>

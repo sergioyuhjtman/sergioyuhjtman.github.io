@@ -11,7 +11,7 @@
         {{ with .Site.Params.profilePicture }}
         <div class="author-image">
           <a href="{{ $.Site.BaseURL }}">
-            <img src="{{ . | relURL }}" class="img-headshot img-circle center" alt="Profile Picture">
+            <img src="{{ . | relURL }}" style="width: 65%" class="img-headshot img-circle center" alt="Profile Picture">
           </a>
         </div>
         {{ end }}
