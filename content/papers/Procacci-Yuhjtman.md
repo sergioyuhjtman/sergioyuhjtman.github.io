@@ -16,27 +16,27 @@ The subject belongs to the area of statistical mechanics.
 Consider a gas in a cubic box. If the interaction between the molecules is negligible, it is an ideal gas. You may be familiar with the equation of state
 $$pV = nRT$$ which relates pressure, volume, temperature and number of particles.
 For the case where the interactions are significant, the equation of state will be different. There is a model that is known to be valid since the 1930s. It describes molecules as points in a continuous (cubic) space.
-The interaction is determined by an energy function $V$ with the following shape
+The interaction is determined by an energy function $V$. One interesting case is the following shape for $V$, such as the Lennard-Jones potential.
 
 <p align="center"> <img src="/images/LJ.png" alt="Energy" width="300"> </p>
 
 The interaction energy for a pair of particles located at $x$ and $y$ is $V(||x-y||)$.
 Assume we have $n$ particles in the box. According to this model, the probability density for finding the particles at specific positions $x_1, ..., x_n$ depends only on the total energy
-$$U(\vec x) = \sum_{i,j} V(||x_i - x_j||)  \hspace{1cm} \mbox{(total energy)}$$
+$$U(\vec x) = \sum_{i \neq j} V(||x_i - x_j||)  \hspace{1cm} \mbox{(total energy)}$$
 The specific formula for the probability density is not crucial here, but it is the following:
 $$\rho(\vec x) = \frac{ e^{-\beta U(\vec x)}}{\int e^{-\beta U(\vec y)} d\vec y}$$
 where $\beta = 1 /T$, and $T$ is the temperature.
 
-Notice that configurations with larger energies are less likely to happen. If instead of fixing the number of particles we allow a variable density, the model gets slightly more complex. We introduce a parameter $\lambda > 0$, and
-a factor $\lambda^n$ at the probability density. At the denominator we will have every possible configuration with the corresponding factor $\lambda^{n'}$ for variable $n'$.
+Notice that configurations with larger energies are less likely to happen. If instead of fixing the number of particles we allow a variable density, the model gets slightly more complex. We introduce a parameter $\lambda > 0$, and a factor $\lambda^n$ at the probability density. At the denominator we will have every possible configuration with the corresponding factor $\lambda^{n'}$ for variable $n'$.
 
 #### Some context about the problem and its physical significance
 
 We are interested in understanding the relation between density and pressure in the case where the volume tends to infinity, the so-called "thermodynamic limit". 
 When the density is sufficiently low, this can be done through a technique known as "cluster expansion" or "virial expansion". In this technique, the logarithm of the denominator of the probability density (a.k.a. the logarithm of the partition function)
 is expressed as a power series on $\lambda$, where the $n$-th term is a sum over connected graphs with $n$ vertices. In this way, the problem of finding the equation of state reduces to the convergence of this series, since pressure and density can be derived from it. 
-The ideal gas case corresponds to $\beta = 0$. For $\beta > 0$,
-if we can find a non-empty convergence region for $\lambda$ this means that there is no phase transition between the ideal gas and our system, implying that it is a gas.
+The ideal gas corresponds to $\beta = 0$. For $\beta > 0$, if we can find a non-empty convergence region for $\lambda$, this means that the equation of state is analytic on the convergence region for $\lambda, \beta$. Thus, there is no phase transition between the ideal gas and the system at that region, implying that it is a gas. 
+
+Note: As point processes, the ideal gas is a Poisson process and the non-ideal gas is a perturbation of a Poisson process.
 
 #### Some context about the solutions
   This problem was first solved in 1963 by D. Ruelle and independently (or correlatedly) by O. Penrose. Later, O. Penrose developed a combinatorial method to solve special cases, namely imposing some extra restrictions to the pair potential (the energy function above). The essence of this combinatorial method is to reduce the sums over connected graphs to only the trees, which are much less. Further investigations of this method followed.

@@ -6,7 +6,15 @@
     <description>Recent content on Sergio Yuhjtman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 28 Apr 2025 13:28:40 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/viewpoints/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decentralized exchange - Blockchain</title>
+      <link>http://localhost:1313/viewpoints/dex/</link>
+      <pubDate>Mon, 28 Apr 2025 13:28:40 -0300</pubDate>
+      <guid>http://localhost:1313/viewpoints/dex/</guid>
+      <description>&lt;h1 id=&#34;decentralized-exchange&#34;&gt;Decentralized exchange&lt;/h1&gt;&#xA;&lt;p&gt;If there are two or more tokens living on (the state of a virtual machine on) a blockchain, it makes a lot of sense to have a decentralized exchange mechanism. This means&#xA;a mechanism that allows users to exchange between those tokens by operating only inside the blockchain.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mev&#34;&gt;MEV&lt;/h2&gt;&#xA;&lt;h2 id=&#34;n--2&#34;&gt;N = 2&lt;/h2&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>http://localhost:1313/viewpoints/notes/</link>

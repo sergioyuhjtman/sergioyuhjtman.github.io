@@ -11,6 +11,11 @@
       <a href="{{ .Permalink }}" class="truncate">{{ .Title }}</a>
     </div>
   </li>
+
+    {{ if eq .Title "Decentralized exchange (blocker)" }}
+        {{ "## Something else" | markdownify }}
+    {{ end }}
+
   {{- end }}
 </ul>
 {{- end }}

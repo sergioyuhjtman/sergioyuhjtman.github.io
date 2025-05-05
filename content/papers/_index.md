@@ -1,9 +1,14 @@
 ## Selected papers explained
 
-Research papers are typically addressed to specialized audiences. While this is necessary, it comes with a significant drawback: many people who might appreciate them are left out. The idea here is to introduce the content of some of my papers to a broader audience
+Research papers are typically addressed to specialized audiences. 
+While this is necessary, it excludes many people who might otherwise appreciate them.
+The idea here is to present the content of some of my papers to a broader audience.
 
-### Mathematical physics
+#### Mathematical physics
 
-Physics aims to develop mathematical models to describe physical phenomena. In mathematical physics, we delve deeper into the mathematical aspects of these models.
+Physics aims to develop mathematical models to describe physical phenomena. 
+Thus, in some sense, all of physics is mathematical physics. 
+In a more restrictive sense, mathematical physics is a discipline that 
+delves deeper into the mathematical aspects of these models.
 
-### Papers in mathematical physics
+#### Papers in mathematical physics

@@ -37,8 +37,8 @@ theme = "soho"
     weight = 1
 
   [[menu.main]]
-    name = "Personal viewpoints"
-    url = "/viewpoints/"
+    name = "Blockchain"
+    url = "/blockchain/"
     weight = 2
 
 [markup]
