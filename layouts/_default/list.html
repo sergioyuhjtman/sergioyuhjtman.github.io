@@ -12,8 +12,17 @@
     </div>
   </li>
 
-    {{ if eq .Title "Decentralized exchange (blocker)" }}
+    {{ if eq .Title "Decentralized exchange" }}
         {{ "## Something else" | markdownify }}
+    {{ end }}
+
+    {{ if eq .Title "Gaussian random permutation and the boson point process" }}
+    <p style="margin-top: 50px;">
+        <b> Other papers unexplained </b>
+        <br>
+
+        {{ "Link to [google scholar profile](https://scholar.google.com/citations?user=kX9oMvAAAAAJ&hl=en&oi=ao)" | markdownify }}
+    </p>    
     {{ end }}
 
   {{- end }}

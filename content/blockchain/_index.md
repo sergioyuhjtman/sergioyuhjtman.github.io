@@ -2,7 +2,7 @@
 ## Blockchain
 
 Little by little, the world is coming to acknowledge the power of blockchain technology.
-The following syllogism should persuade intelligent skeptics.
+The following syllogism should persuade intelligent yet skeptical people.
 
 * Public blockchains are valuable, since they can register timestamped digital events in a decentralized manner —something that cannot be done without them.
 
