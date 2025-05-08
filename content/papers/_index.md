@@ -7,8 +7,6 @@ The idea here is to present the content of some of my papers to a broader audien
 #### Mathematical physics
 
 Physics aims to develop mathematical models to describe physical phenomena. 
-Thus, in some sense, all of physics is mathematical physics. 
-In a more restrictive sense, mathematical physics is a discipline that 
-delves deeper into the mathematical aspects of these models.
+Therefore, to some extent, all of physics is mathematical. More precisely, however, mathematical physics is the discipline that delves deeper into the mathematical aspects of these models.
 
 #### Papers in mathematical physics
