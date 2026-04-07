@@ -8,7 +8,7 @@ draft = false
 
 <br>
 
-*Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present some results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts.*
+*Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present selected results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts.*
 <br>
 
 ## Introduction
