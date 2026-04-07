@@ -53,8 +53,10 @@
     {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
   {{ end -}}
 </head>
-<body>
-  {{ partial "sidebar.html" . }}
+<body class="{{ .Kind }} {{ .Type }}{{ if eq .Kind "page" }} no-sidebar{{ end }}">
+  {{ if ne .Kind "page" }}
+    {{ partial "sidebar.html" . }}
+  {{ end }}
 
   <main class="content container">
   {{ block "main" . -}}{{- end }}

@@ -8,6 +8,7 @@ theme = "soho"
   description = "Personal website"
   profilePicture = "images/me.jpg"
   mathjax = true
+  customCss = ["css/custom.css"]
 
 [[params.socialIcons]]
   icon = "fa-linkedin"
@@ -32,12 +33,12 @@ theme = "soho"
 [menu]
 
   [[menu.main]]
-    name = "Selected papers explained"
+    name = "Science"
     url = "/papers/"
     weight = 1
 
   [[menu.main]]
-    name = "Blockchain"
+    name = "Blockchain, DEX"
     url = "/blockchain/"
     weight = 2
 

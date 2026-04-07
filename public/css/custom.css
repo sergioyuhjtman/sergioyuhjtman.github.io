@@ -1,0 +1,49 @@
+.img-zoom:hover {
+  transform: scale(2.5);
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+/* Theme default is gray (#515151). Force main text to true black. */
+body {
+  color: #000;
+}
+
+/* Make common "muted" theme elements black too. */
+.post-date,
+.tagline,
+blockquote,
+.message,
+a.tag-link {
+  color: #000 !important;
+}
+
+/* When the sidebar is hidden on single pages, undo the desktop offsets. */
+@media (min-width: 48em) {
+  body.no-sidebar .content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 52rem;
+  }
+
+  body.no-sidebar footer {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+
+.return-link {
+  display: inline-block;
+  margin: 0.25rem 0 1rem 0;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid rgba(73, 117, 122, 0.35);
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.return-link:hover,
+.return-link:focus {
+  text-decoration: none;
+  background: rgba(73, 117, 122, 0.08);
+}
+

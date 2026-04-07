@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40515&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.160.0">
+
+  <title>A simple yet powerful methodology for the quantitative study of AMMs &middot; Sergio Yuhjtman</title>
+
+  <meta name="description" content="" />
+
+  
+  <meta itemprop="name" content="A simple yet powerful methodology for the quantitative study of AMMs">
+  <meta itemprop="description" content="A simple yet powerful approach to the quantitative study of AMMs Abstract: we explain how to measure the income from organic flow for an AMM and show some interesting results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss other concepts. Introduction Ultimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries other than a blockchain, that would charge the gas cost and a tiny swap fee (say 0.01%). Sure, the DEX utopia wouldn’t solve famines, poverty or wars, but it’s a significant economic problem that we can tackle and maybe actually solve. To certain extent, the content here is a reminder that we have made great progress towards this goal. This reminder comes in a particular form: a sharp look at the most basic type of AMM. I aim to present some simple but relevant results and methodology for the quantitave study of AMMs.">
+  <meta itemprop="datePublished" content="2026-04-01T12:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-04-01T12:00:00+00:00">
+  <meta itemprop="wordCount" content="1263">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A simple yet powerful methodology for the quantitative study of AMMs">
+  <meta name="twitter:description" content="A simple yet powerful approach to the quantitative study of AMMs Abstract: we explain how to measure the income from organic flow for an AMM and show some interesting results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss other concepts. Introduction Ultimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries other than a blockchain, that would charge the gas cost and a tiny swap fee (say 0.01%). Sure, the DEX utopia wouldn’t solve famines, poverty or wars, but it’s a significant economic problem that we can tackle and maybe actually solve. To certain extent, the content here is a reminder that we have made great progress towards this goal. This reminder comes in a particular form: a sharp look at the most basic type of AMM. I aim to present some simple but relevant results and methodology for the quantitave study of AMMs.">
+
+
+<meta property="og:url" content="http://localhost:40515/blockchain/long-term-performance/">
+  <meta property="og:site_name" content="Sergio Yuhjtman">
+  <meta property="og:title" content="A simple yet powerful methodology for the quantitative study of AMMs">
+  <meta property="og:description" content="A simple yet powerful approach to the quantitative study of AMMs Abstract: we explain how to measure the income from organic flow for an AMM and show some interesting results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss other concepts. Introduction Ultimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries other than a blockchain, that would charge the gas cost and a tiny swap fee (say 0.01%). Sure, the DEX utopia wouldn’t solve famines, poverty or wars, but it’s a significant economic problem that we can tackle and maybe actually solve. To certain extent, the content here is a reminder that we have made great progress towards this goal. This reminder comes in a particular form: a sharp look at the most basic type of AMM. I aim to present some simple but relevant results and methodology for the quantitave study of AMMs.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blockchain">
+    <meta property="article:published_time" content="2026-04-01T12:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-01T12:00:00+00:00">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "http://localhost:40515/#author",
+      "name": "Sergio Yuhjtman",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "http://localhost:40515/images/me.jpg"
+        
+      },
+      "description": "Personal website"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "http://localhost:40515/#website",
+      "url": "http://localhost:40515/",
+      "name": "Sergio Yuhjtman",
+      "description": "Personal website",
+      "publisher": {
+        "@id": "http://localhost:40515/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://localhost:40515/blockchain/long-term-performance/#webpage",
+      "url": "http://localhost:40515/blockchain/long-term-performance/",
+      "name": "A simple yet powerful methodology for the quantitative study of AMMs",
+      "isPartOf": {
+        "@id": "http://localhost:40515/#website"
+      },
+      "about": {
+         "@id": "http://localhost:40515/#author"
+      },
+      "datePublished": "2026-04-01T12:00:00+00:00",
+      "dateModified": "2026-04-01T12:00:00+00:00",
+      "description": "\u003ch1 id=\"a-simple-yet-powerful-approach-to-the-quantitative-study-of-amms\"\u003eA simple yet powerful approach to the quantitative study of AMMs\u003c/h1\u003e\n\u003cbr\u003e\n\u003cp\u003e\u003cem\u003eAbstract: we explain how to measure the income from organic flow for an AMM and show some interesting results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss other concepts.\u003c/em\u003e\n\u003cbr\u003e\u003c/p\u003e\n\u003ch2 id=\"introduction\"\u003eIntroduction\u003c/h2\u003e\n\u003cp\u003eUltimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries other than a blockchain, that would charge the gas cost and a tiny swap fee (say 0.01%). Sure, the DEX utopia wouldn\u0026rsquo;t solve famines, poverty or wars, but it\u0026rsquo;s a significant economic problem that we can tackle and maybe actually solve. To certain extent, the content here is a reminder that we have made great progress towards this goal. This reminder comes in a particular form: a sharp look at the most basic type of AMM. I aim to present some simple but relevant results and methodology for the quantitave study of AMMs.\u003c/p\u003e",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "http://localhost:40515/blockchain/long-term-performance/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "http://localhost:40515/blockchain/long-term-performance/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://localhost:40515/blockchain/long-term-performance/#webpage"
+      },
+      "headline": "A simple yet powerful methodology for the quantitative study of AMMs",
+      "datePublished": "2026-04-01T12:00:00+00:00",
+      "dateModified": "2026-04-01T12:00:00+00:00",
+      "publisher": {
+        "@id": "http://localhost:40515/#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "http://localhost:40515/blockchain/long-term-performance/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/custom.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body class="page blockchain no-sidebar">
+  
+
+  <main class="content container">
+  <div class="post">
+  
+  
+  <a class="return-link" href="/blockchain/">← Return</a>
+  <div>
+  <h1 id="a-simple-yet-powerful-approach-to-the-quantitative-study-of-amms">A simple yet powerful approach to the quantitative study of AMMs</h1>
+<br>
+<p><em>Abstract: we explain how to measure the income from organic flow for an AMM and show some interesting results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss other concepts.</em>
+<br></p>
+<h2 id="introduction">Introduction</h2>
+<p>Ultimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries other than a blockchain, that would charge the gas cost and a tiny swap fee (say 0.01%). Sure, the DEX utopia wouldn&rsquo;t solve famines, poverty or wars, but it&rsquo;s a significant economic problem that we can tackle and maybe actually solve. To certain extent, the content here is a reminder that we have made great progress towards this goal. This reminder comes in a particular form: a sharp look at the most basic type of AMM. I aim to present some simple but relevant results and methodology for the quantitave study of AMMs.</p>
+<p>For the sake of concreteness and simplicity, we will focus on just one specific AMM:
+<a href="https://etherscan.io/address/0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc">Uniswap V2&rsquo;s USDC/ETH pool</a>. This is a constant product AMM with a swap fee of 0.3%. The data shared here illustrates several important points that, in my opinion, should be better known and understood by the broad blockchain community.</p>
+<h3 id="pool-long-term-performance">Pool long-term performance</h3>
+<p>Let us first take a look at the evolution of the value, measured in USD, of a liquidity provider position (LP), between January 2021 and January 2026, <a href="https://www.youtube.com/watch?v=2ObjtVdsV3I">five years</a>. We will compare it with the value of simply holding the initial amounts of USDC and ETH. At the beginning of the period, the price for this pair was approximately 750 USDC/ETH, while at the end it was at 3000 USDC/ETH, a factor of four. For each initial dollar, the Hold position ends with 2.5 USD, while the LP position ends with 4.25 USD.
+The following chart shows the full evolution of the price, the positions&rsquo; value, and the value of the LP position relative to the Hold position.</p>
+<p align="center"> <img src="/images/meth-chart-a.png" alt="LP vs Hold" width="2000"> </p>
+<p>Let us break this down.
+A constant product AMM between two tokens always holds half of its value at each pool component. In reality, it is not &ldquo;constant product&rdquo; since the product of the reserves increases after a swap, thanks to the &ldquo;swap fee&rdquo;. The performance of the LP position against Hold can be decomposed into a component that depends deterministically on the current price, and the collected fees component. The former always implies a loss (<em>divergence loss</em>), while the latter brings gains. Therefore, the overall performance is the result of this tension. At the chart we can see that for this pool and period, there is a trend: the orange line consistently beats the blue line. The LP ends up 70% above Hold, this is 11% annually.</p>
+<h3 id="betting-on-predictable-noise">Betting on predictable noise</h3>
+<p>As for most live AMMs, in this case it is very useful to disaggregate the trading dynamics into <em>arbitrage flow</em> and <em>organic flow</em>. By looking at individual transactions it is very impractical or even impossible to classify them as belonging to one group or the other. Fortunately, there is a relatively simple method to achieve this disaggregation. For a given price sequence, we can define the pure arbitrage dynamics as the evolution that the pool experiences in the sole presence of an ideal arbitrageur. We can simulate this dynamics in retrospective for the pool under consideration. Whatever flow the pool has received on top of that is by definition <em>organic flow</em>. The simulation method we use here has been put into practice by many research teams by now. In particular, we used it at Balancer during 2025 to carefully study the evolution of pools of the <a href="https://docs.balancer.fi/concepts/explore-available-balancer-pools/reclamm-pool/reclamm-pool.html">ReClamm type</a>, with some promising early results. The output of the simulations depends on the ratio <em>gas_price / liquidity</em>. However, since the pool is very liquid in our case, the gas cost gets diluted and any reasonable estimation gives approximately the same result. Below, we share a chart with the results of the simulation for the year 2025, along with a comparison to the positions Hold and actual LP. We also include a simulated feeless pool and make it our baseline for the relative value chart. Notice that the feeless pool position only depends on the instant price.</p>
+<p align="center"> <img src="/images/meth-chart-b.png" alt="Simulation" width="2000"> </p>
+<p>The constant pace of the green and red lines is quite remarkable!</p>
+<p>It means that for this pool we can credibly predict the income rates from both arbitrage and organic flow, by simply reading the recent past. They have been responsible for an appreciation of 5% and 6% respectively of the LP position. From experience, this pattern of even paces is not an exception but the norm in AMMs. Of course, not every pool receives this rate of organic flow, and in many cases the price divergence hits hard. In this case, we see how much the typical noise in a cryptocurrency price signal favors the LP, along with the so-called <em>noise traders</em> responsible for the organic flow.</p>
+<p>An economic agent that already has a model for the final price (say, a probability distribution) for a given time horizon, can leverage this methodology to get a good prediction for the LP position.</p>
+<p>The income from arbitrage flow is directly related with volatility. Therefore, roughly speaking, the higher the rate, the higher the risk from price divergence. On the other hand, the income from organic flow represents pure gain. For this reason, it is a metric that should be more publicized. More generally, I believe that this simple point of view and methodology should make AMM liquidity provision more transparent for many people. And hopefully, it could attract more players to the DEX arena.</p>
+<h3 id="contrast-with-other-points-of-view">Contrast with other points of view</h3>
+<p>Please compare the exposition above with the following paragraph:</p>
+<p>&ldquo;AMM is a weird mix of a bad fund manager (who runs a rebalancing portfolio that loses money for any price movement) and a bad market maker (who loses money on every trade, and wish to win it back in fees)&rdquo;</p>
+<p>This is the starting point of a <a href="https://x.com/StanleyHe17/verified_followers">tweet</a> by a respected member of the community. I have heard this kind of strange opinions many times. Apparently, they mentally represent AMMs as silly agents that let arbitrageurs take advantage from them, and therefore the expectation of utility is always negative for the LPs. But the truth is that arbitrageurs and LPs do not play a zero sum game. On the contrary, LPs are actually favored from efficient arbitraging, so there is cooperation. Arbitrage flow is not <a href="https://medium.com/@alexnezlobin/toxic-order-flow-on-decentralized-exchanges-problem-and-solutions-a1b79f32225a">toxic</a>. That is misleading terminology.</p>
+<p>This social phenomenon seems to be causally connected with the highly influential papers on <a href="https://arxiv.org/pdf/2208.06046"><em>loss vs. rebalance</em></a> (LVR). While the concept is technically well-defined and relevant, it is not always necessary to consider it in order to make a good quantitative assessment of an LP position. In our example, we can simulate the <em>rebalance</em> position by donating the arb profits to the pool. The result is a gain of approximately 2% compared to the arb-only simulation at the chart above.</p>
+<p>But then, is it possible to eliminate the LVR to have a better AMM performance? My impression is that you cannot sustainably have both non-LVR and noise-flow-receiving AMMs. That seems like excessively favorable for LPs over the other traders, who can simply opt out. In the future, I expect AMMs to have noise-flow replaced by non-LVR. This is explained <a href="https://ethresear.ch/t/affiliated-amms-and-permissionless-solving-for-uniform-price-batch-auctions/20187">here</a>.</p>
+<p>See also <a href="https://arxiv.org/abs/2404.05803">this article</a> for more quantitative analysis of AMMs.</p>
+<h3 id="acknowledgements">Acknowledgements:</h3>
+<p>I am deeply grateful to <a href="https://balancer.fi/">Balancer</a>, where I grew professionally over three years.</p>
+
+  </div>
+</div>
+  </main>
+
+  <footer>
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+        });
+      </script>
+          
+      <script type="text/javascript"
+              src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script> 
+    
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  
+
+    
+</body>
+</html>
