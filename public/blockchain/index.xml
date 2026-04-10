@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sergio Yuhjtman</title>
-    <link>http://localhost:40319/blockchain/</link>
+    <link>http://localhost:1313/blockchain/</link>
     <description>Recent content on Sergio Yuhjtman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40319/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A simple but powerful approach to the quantitative study of AMMs</title>
-      <link>http://localhost:40319/blockchain/amm-approach/</link>
+      <link>http://localhost:1313/blockchain/amm-approach/</link>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>http://localhost:40319/blockchain/amm-approach/</guid>
+      <guid>http://localhost:1313/blockchain/amm-approach/</guid>
       <description>&lt;h1 id=&#34;a-simple-but-powerful-approach-to-the-quantitative-study-of-amms&#34;&gt;A simple but powerful approach to the quantitative study of AMMs&lt;/h1&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;em&gt;Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present selected results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts.&lt;/em&gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ultimately, this article is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a tiny swap fee (say, 0.01%). Of course, this DEX utopia wouldn&amp;rsquo;t solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal.&lt;/p&gt;</description>
     </item>
   </channel>

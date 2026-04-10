@@ -49,23 +49,9 @@ An economic agent with a model for the final price (e.g., a probability distribu
 
 Income from arbitrage flow is directly related to volatility. Therefore, roughly speaking, the higher the rate, the greater the risk from price divergence. By contrast, income from organic flow represents pure gain. For this reason, it is a metric that deserves wider attention. More generally, I believe that this simple perspective and methodology can make AMM liquidity provision more transparent to a broader audience, and hopefully attract more participants to the DEX ecosystem.
 
-## Contrast with other points of view
+## The choice of a baseline
 
-Please compare the exposition above with the following paragraph:
-
-"AMM is a weird mix of a bad fund manager (who runs a rebalancing portfolio that loses money for any price movement) and a bad market maker (who loses money on every trade, and wishes to win it back in fees)"
-
-This is the opening of a [tweet](https://x.com/StanleyHe17/status/2038346843764002876) by a respected member of the community. I have heard this kind of opinion many times. Apparently, some view AMMs as naive agents that allow arbitrageurs to take advantage of them, and therefore the expected utility is always negative for LPs. But the truth is that arbitrageurs and LPs do not play a zero-sum game with each other. On the contrary, LPs are actually favored by efficient arbitrage, so there is cooperation. 
-
-This social phenomenon seems to be causally connected to the highly influential literature on [*loss versus rebalancing*](https://arxiv.org/pdf/2208.06046) (LVR). While the concept is technically well defined and relevant, it is not the only factor. Moreover, it is not always necessary to consider it in order to make a sound quantitative assessment of an LP position. In our example, we can simulate the *rebalancing* position by donating arbitrage profits to the pool. The result is a gain of approximately 2% compared to the arb-only simulation shown in the chart above. This 2% is the *loss* of the arb-only position *vs. rebalancing*.
-
-But then, is it possible to eliminate LVR and achieve better AMM performance? My impression is that one cannot sustainably have both non-LVR and noise-flow-receiving AMMs. That would seem excessively favorable to LPs relative to other traders, who could simply opt out. In the future, I expect AMMs to replace noise flow with non-LVR. More on this [here](https://ethresear.ch/t/affiliated-amms-and-permissionless-solving-for-uniform-price-batch-auctions/20187).
-
-See also these two articles: <br>
-[Measuring Arbitrage Losses and Profitability of AMM Liquidity](https://arxiv.org/abs/2404.05803) <br>
-[Toxic Order Flow on Decentralized Exchanges: Problem and Solutions](https://medium.com/@alexnezlobin/toxic-order-flow-on-decentralized-exchanges-problem-and-solutions-a1b79f32225a) 
-<br>
-for more quantitative analysis of AMMs.
+Work in progress
 
 
 ### References
