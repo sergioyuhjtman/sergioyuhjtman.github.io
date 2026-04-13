@@ -1,7 +1,7 @@
 +++
 date = '2026-04-01T12:00:00-00:00'
 title = 'A simple but powerful approach to the quantitative study of AMMs'
-draft = false
+draft = true
 +++
 
 # A simple but powerful approach to the quantitative study of AMMs 
@@ -51,7 +51,25 @@ Income from arbitrage flow is directly related to volatility. Therefore, roughly
 
 ## The choice of a baseline
 
-Work in progress
+The correct benchmark to compare the performance of an LP position is largely dependent on the observer's motivations. The above choice of Hold as a benchmark is motivated by the following properties shared by both positions:
+
+(a) Starts with equal amounts of each token. <br>
+(b) Non-custodial. <br>
+(c) Passive. <br>
+
+This is why in many cases, Hold is the natural choice: given identical qualitative conditions, the decision making reduces to comparing utilities. In some cases, a user may want to compare the LP position versus lending and/or staking. This does not require a modification, since it could be easily derived once the comparison to Hold is given. There are cases where users may prioritize the sheer provision of liquidity to the market over their position's performance, but that is a totally separate issue.
+
+The influential work [Automated Market Making and Loss-Versus-Rebalancing](https://arxiv.org/pdf/2208.06046) proposes the *rebalancing* strategy as a standard benchmark. The *rebalancing* strategy is defined as "a trading strategy which holds whatever amount of the
+risky asset the AMM holds at any point in time, but adjusts its positions in the risky asset by
+trading at CEX prices, rather than AMM prices". A similar, more symmetrical choice would be to always have the total value divided in halves. Assuming certain market conditions, it is possible to approximate this strategy in practice. However, there is no known way to achieve it while also having both properties (b) and (c) above. As a consequence, it entails some risks and costs that places it on a different footing than Hold and LP. In this way, for many agents it will ultimately not be the most relevant benchmark.
+
+For the sake of completeness, we include a chart...
+Profit versus rebalance.
+
+non-LVR AMMs?  
+"This is because in a competitive market for liquidity provision, there should
+be no excess profits for LPs, and hence fees should balance with LVR"
+
 
 ## References
 - [Willetts, Harrington — "Rebalancing-versus-Rebalancing: Improving the fidelity of

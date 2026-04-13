@@ -14,7 +14,7 @@
   <meta itemprop="description" content="A simple but powerful approach to the quantitative study of AMMs Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present some results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts. Introduction Ultimately, this informal note is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a tiny swap fee (say, 0.01%). Of course, this DEX utopia wouldn’t solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal.">
   <meta itemprop="datePublished" content="2026-04-01T12:00:00+00:00">
   <meta itemprop="dateModified" content="2026-04-01T12:00:00+00:00">
-  <meta itemprop="wordCount" content="1036">
+  <meta itemprop="wordCount" content="1342">
 
 
   <meta name="twitter:card" content="summary">
@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="A simple but powerful approach to the quantitative study of AMMs Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present some results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts. Introduction Ultimately, this informal note is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a tiny swap fee (say, 0.01%). Of course, this DEX utopia wouldn’t solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal.">
 
 
-<meta property="og:url" content="http://localhost:1313/blockchain/amm-approach/">
+<meta property="og:url" content="http://localhost:1313/blockchain/amm-approach-draft/">
   <meta property="og:site_name" content="Sergio Yuhjtman">
   <meta property="og:title" content="A simple but powerful approach to the quantitative study of AMMs">
   <meta property="og:description" content="A simple but powerful approach to the quantitative study of AMMs Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present some results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts. Introduction Ultimately, this informal note is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a tiny swap fee (say, 0.01%). Of course, this DEX utopia wouldn’t solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal.">
@@ -63,8 +63,8 @@
     },
     {
       "@type": "WebPage",
-      "@id": "http://localhost:1313/blockchain/amm-approach/#webpage",
-      "url": "http://localhost:1313/blockchain/amm-approach/",
+      "@id": "http://localhost:1313/blockchain/amm-approach-draft/#webpage",
+      "url": "http://localhost:1313/blockchain/amm-approach-draft/",
       "name": "A simple but powerful approach to the quantitative study of AMMs",
       "isPartOf": {
         "@id": "http://localhost:1313/#website"
@@ -80,7 +80,7 @@
         {
           "@type": "ReadAction",
           "target": [
-            "http://localhost:1313/blockchain/amm-approach/"
+            "http://localhost:1313/blockchain/amm-approach-draft/"
           ]
         }
       ]
@@ -88,10 +88,10 @@
     {
       "@type": "Article",
       "isPartOf": {
-        "@id": "http://localhost:1313/blockchain/amm-approach/#webpage"
+        "@id": "http://localhost:1313/blockchain/amm-approach-draft/#webpage"
       },
       "mainEntityOfPage": {
-        "@id": "http://localhost:1313/blockchain/amm-approach/#webpage"
+        "@id": "http://localhost:1313/blockchain/amm-approach-draft/#webpage"
       },
       "headline": "A simple but powerful approach to the quantitative study of AMMs",
       "datePublished": "2026-04-01T12:00:00+00:00",
@@ -113,7 +113,7 @@
           "@type": "CommentAction",
           "name": "Comment",
           "target": [
-            "http://localhost:1313/blockchain/amm-approach/#comments"
+            "http://localhost:1313/blockchain/amm-approach-draft/#comments"
           ]
         }
       ]
@@ -193,7 +193,19 @@ Below, we present a chart with the results of the simulation for 2025, along wit
 <p>An economic agent with a model for the final price (e.g., a probability distribution) over a given time horizon can leverage this methodology to obtain a good estimate for the LP position.</p>
 <p>Income from arbitrage flow is directly related to volatility. Therefore, roughly speaking, the higher the rate, the greater the risk from price divergence. By contrast, income from organic flow represents pure gain. For this reason, it is a metric that deserves wider attention. More generally, I believe that this simple perspective and methodology can make AMM liquidity provision more transparent to a broader audience, and hopefully attract more participants to the DEX ecosystem.</p>
 <h2 id="the-choice-of-a-baseline">The choice of a baseline</h2>
-<p>Work in progress</p>
+<p>The correct benchmark to compare the performance of an LP position is largely dependent on the observer&rsquo;s motivations. The above choice of Hold as a benchmark is motivated by the following properties shared by both positions:</p>
+<p>(a) Starts with equal amounts of each token. <br>
+(b) Non-custodial. <br>
+(c) Passive. <br></p>
+<p>This is why in many cases, Hold is the natural choice: given identical qualitative conditions, the decision making reduces to comparing utilities. In some cases, a user may want to compare the LP position versus lending and/or staking. This does not require a modification, since it could be easily derived once the comparison to Hold is given. There are cases where users may prioritize the sheer provision of liquidity to the market over their position&rsquo;s performance, but that is a totally separate issue.</p>
+<p>The influential work <a href="https://arxiv.org/pdf/2208.06046">Automated Market Making and Loss-Versus-Rebalancing</a> proposes the <em>rebalancing</em> strategy as a standard benchmark. The <em>rebalancing</em> strategy is defined as &ldquo;a trading strategy which holds whatever amount of the
+risky asset the AMM holds at any point in time, but adjusts its positions in the risky asset by
+trading at CEX prices, rather than AMM prices&rdquo;. A similar, more symmetrical choice would be to always have the total value divided in halves. Assuming certain market conditions, it is possible to approximate this strategy in practice. However, there is no known way to achieve it while also having both properties (b) and (c) above. As a consequence, it entails some risks and costs that places it on a different footing than Hold and LP. In this way, for many agents it will ultimately not be the relevant benchmark.</p>
+<p>For the sake of completeness, we include a chart&hellip;
+Profit versus rebalance.</p>
+<p>non-LVR AMMs?<br>
+&ldquo;This is because in a competitive market for liquidity provision, there should
+be no excess profits for LPs, and hence fees should balance with LVR&rdquo;</p>
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://cdn.prod.website-files.com/6616670ddddc931f1dd3aa73/672283811331fc9bef39be23_RVR_30_10_24.pdf">Willetts, Harrington — &ldquo;Rebalancing-versus-Rebalancing: Improving the fidelity of
