@@ -40,13 +40,15 @@
     <br>
     <section class="social-icons">
       {{ range $item := .Site.Params.socialIcons }}
-      <a href="{{ $item.url }}" rel="me" title="{{ $item.title }}" target="_blank">
+      <a href="{{ $item.url }}" rel="me" title="{{ $item.title }}"{{ if not (strings.HasPrefix $item.url "mailto:") }} target="_blank"{{ end }}>
         <i class="fab {{ $item.icon }}" aria-hidden="true"></i>
       </a>
       {{ end }}
-
-      <p style="font-size: 14px; margin-top: 0.2cm;"> sergioyuhjtman at google mail </p>
-
+      {{ with .Site.Params.email }}
+      <a href="mailto:{{ . }}" rel="me" title="{{ . }}">
+        <i class="fab fa-google" aria-hidden="true"></i>
+      </a>
+      {{ end }}
     </section>
   </div>
 </aside>

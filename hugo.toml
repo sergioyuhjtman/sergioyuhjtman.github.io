@@ -7,6 +7,7 @@ theme = "soho"
   author = "Sergio Yuhjtman"
   description = "Personal website"
   profilePicture = "images/me.jpg"
+  email = "sergioyuhjtman@gmail.com"
   mathjax = true
   customCss = ["css/custom.css"]
 

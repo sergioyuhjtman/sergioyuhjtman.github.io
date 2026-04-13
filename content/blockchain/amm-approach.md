@@ -55,7 +55,7 @@ Work in progress
 
 ## References
 - [Willetts, Harrington — "Rebalancing-versus-Rebalancing: Improving the fidelity of
-Loss-versus-Rebalancing"](https://cdn.prod.website-files.com/6616670ddddc931f1dd3aa73/672283811331fc9bef39be23_RVR_30_10_24.pdf)
+Loss-versus-Rebalancing"](https://arxiv.org/abs/2410.23404)
 - [Adams, Zinsmeister, Robinson — "Uniswap v2 Core"](https://uniswap.org/whitepaper.pdf)
 - [Milionis, Moallemi, Roughgarden, Zhang — "Automated Market Making and Loss-Versus-Rebalancing"](https://arxiv.org/pdf/2208.06046)
 - [Yuhjtman — "Affiliated AMMs and permissionless solving for uniform price batch auctions"](https://ethresear.ch/t/affiliated-amms-and-permissionless-solving-for-uniform-price-batch-auctions/20187)

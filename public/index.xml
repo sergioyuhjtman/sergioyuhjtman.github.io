@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on Sergio Yuhjtman</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:45297/</link>
     <description>Recent content in Welcome on Sergio Yuhjtman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:45297/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A simple but powerful approach to the quantitative study of AMMs</title>
-      <link>http://localhost:1313/blockchain/amm-approach/</link>
+      <link>http://localhost:45297/blockchain/amm-approach/</link>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blockchain/amm-approach/</guid>
+      <guid>http://localhost:45297/blockchain/amm-approach/</guid>
       <description>&lt;h1 id=&#34;a-simple-but-powerful-approach-to-the-quantitative-study-of-amms&#34;&gt;A simple but powerful approach to the quantitative study of AMMs&lt;/h1&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;em&gt;Abstract: We explain how to measure income from organic flow in an Automated Market Maker (AMM) and present some results, focusing on a particular pool. We argue for the relevance of this metric and take the opportunity to discuss related concepts.&lt;/em&gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ultimately, this informal note is about Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a tiny swap fee (say, 0.01%). Of course, this DEX utopia wouldn&amp;rsquo;t solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convergence of Mayer and Virial expansions...</title>
-      <link>http://localhost:1313/papers/procacci-yuhjtman/</link>
+      <link>http://localhost:45297/papers/procacci-yuhjtman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/procacci-yuhjtman/</guid>
+      <guid>http://localhost:45297/papers/procacci-yuhjtman/</guid>
       <description>&lt;h3 id=&#34;convergence-of-mayer-and-virial-expansions-and-the-penrose-tree-graph-identity&#34;&gt;&amp;ldquo;Convergence of Mayer and Virial expansions and the Penrose tree-graph identity&amp;rdquo;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;by-aldo-procacci-sergio-yuhjtman&#34;&gt;by &lt;em&gt;Aldo Procacci, Sergio Yuhjtman.&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;h3 id=&#34;review-by-sergio-yuhjtman&#34;&gt;Review by Sergio Yuhjtman&lt;/h3&gt;&#xA;&lt;p&gt;The subject belongs to the area of statistical mechanics.&lt;/p&gt;&#xA;&lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;&#xA;&lt;p&gt;Consider a gas in a cubic box. If the interaction between the molecules is negligible, it is an ideal gas. You may be familiar with the equation of state&#xA;$$pV = nRT$$ which relates pressure, volume, temperature and number of particles.&#xA;For the case where the interactions are significant, the equation of state will be different. There is a model that is known to be valid since the 1930s. It describes molecules as points in a continuous (cubic) space.&#xA;The interaction is determined by an energy function $V$. One interesting case is the following shape for $V$, such as the Lennard-Jones potential.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaussian random permutation and the boson point process</title>
-      <link>http://localhost:1313/papers/afy/</link>
+      <link>http://localhost:45297/papers/afy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/afy/</guid>
+      <guid>http://localhost:45297/papers/afy/</guid>
       <description>&lt;p&gt;Coming sooner or later&lt;/p&gt;</description>
     </item>
   </channel>
