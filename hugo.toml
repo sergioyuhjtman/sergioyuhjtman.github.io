@@ -43,6 +43,11 @@ theme = "soho"
     url = "/blockchain/"
     weight = 2
 
+  [[menu.main]]
+    name = "Psychology"
+    url = "/psychology/"
+    weight = 3
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
