@@ -1,10 +1,10 @@
 +++
 date = '2026-04-01T12:00:00-00:00'
-title = 'A simple but powerful approach to the quantitative study of AMMs'
+title = 'An introduction to the quantitative study of AMMs'
 draft = false
 +++
 
-# A simple but powerful approach to the quantitative study of AMMs 
+# An introduction to the quantitative study of AMMs
 
 <br>
 
