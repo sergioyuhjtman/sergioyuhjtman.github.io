@@ -54,16 +54,17 @@ Let us emphasize that the green line represents the evolution of a liquidity pos
 
 ## The choice of a benchmark
 
-In the influential paper "Automated Market Making and Loss-Versus-Rebalancing", the authors propose the _Rebalancing_ position as a universal benchmark for AMMs. In short, this is a hypothetical position that evolves by doing rebalancing swaps at the market price with no fees. The _Rebalancing_ position necessarily outperforms the _arb-only_ position (or "pure arbitrage") considered above, since the latter operates at a strictly worse price. We can add the _Rebalancing_ position to the last plot of relative valuations during 2025.
+In the influential paper "Automated Market Making and Loss-Versus-Rebalancing", the authors propose the _Rebalancing_ position as a universal benchmark for AMMs. In short, this is a hypothetical position that evolves by executing rebalancing swaps at the market price with no fees. The _Rebalancing_ position necessarily outperforms the _Arb-only_ position (or "pure arbitrage") considered above, since the latter operates at a strictly worse price. We can add the _Rebalancing_ position to the previous plot of relative valuations during 2025.
 
 <p align="center"> <img src="/images/quant-chart-c.png" alt="Simulation" width="500"> </p>
 
-As expected, it also displays almost linear behaviour relative to _feeless pool_.
-A nice feature of the _Rebalancing_ position is that it requires no parameters other than the block frequency. Its evolution is determined from the price sequence alone. This is an advantage compared to _arb only_, for which the gas cost needs to be estimated.
+As expected, it also exhibits almost linear behaviour relative to _Feeless pool_.
+A nice feature of the _Rebalancing_ position is that it requires no parameters other than the block frequency. Its evolution is determined by the price sequence alone. This is an advantage over the _Arb only_ benchmark, for which the gas cost must be estimated.
 
-At this point, it seems pertinent to observe that the fact that a particular AMM performs below _Rebalancing_ does not necessarily mean that the LP is losing money in absolute terms. For instance, the LP might be interested in beating _Hold_ or another independent benchmark.
+At this point, it is worth noting that the fact that a particular AMM performs below _Rebalancing_ does not necessarily mean that the LP is losing money in absolute terms. For instance, the LP may be interested in outperforming _Hold_ or another independent benchmark.
 
-See also [3], [4], [5] for different perspectives on this topic and data analysis.
+See also [3], [4], [5] for alternative perspectives and further data analysis on this topic.
+
 
 ## Pool vs. Rebalancing Under Activated Protocol Fees
 

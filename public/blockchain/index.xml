@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Sergio Yuhjtman</title>
-		<link>http://localhost:38361/blockchain/</link>
+		<link>http://localhost:33703/blockchain/</link>
 		<description>Recent content on Sergio Yuhjtman</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 01 Apr 2026 12:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:38361/blockchain/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:33703/blockchain/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>An introduction to the quantitative study of AMMs</title>
-				<link>http://localhost:38361/blockchain/amm-quant/</link>
+				<link>http://localhost:33703/blockchain/amm-quant/</link>
 				<pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-				<guid>http://localhost:38361/blockchain/amm-quant/</guid>
+				<guid>http://localhost:33703/blockchain/amm-quant/</guid>
 				<description>&lt;h1 id=&#34;an-introduction-to-the-quantitative-study-of-amms&#34;&gt;An introduction to the quantitative study of AMMs&lt;/h1&gt;&#xA;&lt;p&gt;Sergio A. Yuhjtman - June 2026&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Abstract: We present, for a general audience, a simple framework for assessing the performance of a liquidity position in an Automated Market Maker (AMM). We explore the effects of arbitrage, organic flow, and rebalancing, and illustrate several commonly observed patterns, using data from a representative pool. In particular, we highlight the approximately linear evolution of a number of key indicators. Finally, we discuss an empirical connection between rebalancing and protocol fees.&lt;/em&gt;&#xA;&lt;br&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

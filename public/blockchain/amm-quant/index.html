@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38361&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33703&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.162.0">
@@ -22,7 +22,7 @@
 	<meta name="twitter:description" content="An introduction to the quantitative study of AMMs Sergio A. Yuhjtman - June 2026 Abstract: We present, for a general audience, a simple framework for assessing the performance of a liquidity position in an Automated Market Maker (AMM). We explore the effects of arbitrage, organic flow, and rebalancing, and illustrate several commonly observed patterns, using data from a representative pool. In particular, we highlight the approximately linear evolution of a number of key indicators. Finally, we discuss an empirical connection between rebalancing and protocol fees.">
 
 
-<meta property="og:url" content="http://localhost:38361/blockchain/amm-quant/">
+<meta property="og:url" content="http://localhost:33703/blockchain/amm-quant/">
 	<meta property="og:site_name" content="Sergio Yuhjtman">
 	<meta property="og:title" content="An introduction to the quantitative study of AMMs">
 	<meta property="og:description" content="An introduction to the quantitative study of AMMs Sergio A. Yuhjtman - June 2026 Abstract: We present, for a general audience, a simple framework for assessing the performance of a liquidity position in an Automated Market Maker (AMM). We explore the effects of arbitrage, organic flow, and rebalancing, and illustrate several commonly observed patterns, using data from a representative pool. In particular, we highlight the approximately linear evolution of a number of key indicators. Finally, we discuss an empirical connection between rebalancing and protocol fees.">
@@ -40,37 +40,37 @@
   "@graph": [
     {
       "@type":"Person",
-      "@id": "http://localhost:38361/#author",
+      "@id": "http://localhost:33703/#author",
       "name": "Sergio Yuhjtman",
       "image": {
         "@type":"ImageObject",
         
-        "url": "http://localhost:38361/images/me.jpg"
+        "url": "http://localhost:33703/images/me.jpg"
         
       },
       "description": "Personal website"
     },
     {
       "@type": "WebSite",
-      "@id": "http://localhost:38361/#website",
-      "url": "http://localhost:38361/",
+      "@id": "http://localhost:33703/#website",
+      "url": "http://localhost:33703/",
       "name": "Sergio Yuhjtman",
       "description": "Personal website",
       "publisher": {
-        "@id": "http://localhost:38361/#author"
+        "@id": "http://localhost:33703/#author"
       },
       "inLanguage": "en-us"
     },
     {
       "@type": "WebPage",
-      "@id": "http://localhost:38361/blockchain/amm-quant/#webpage",
-      "url": "http://localhost:38361/blockchain/amm-quant/",
+      "@id": "http://localhost:33703/blockchain/amm-quant/#webpage",
+      "url": "http://localhost:33703/blockchain/amm-quant/",
       "name": "An introduction to the quantitative study of AMMs",
       "isPartOf": {
-        "@id": "http://localhost:38361/#website"
+        "@id": "http://localhost:33703/#website"
       },
       "about": {
-         "@id": "http://localhost:38361/#author"
+         "@id": "http://localhost:33703/#author"
       },
       "datePublished": "2026-04-01T12:00:00+00:00",
       "dateModified": "2026-04-01T12:00:00+00:00",
@@ -80,7 +80,7 @@
         {
           "@type": "ReadAction",
           "target": [
-            "http://localhost:38361/blockchain/amm-quant/"
+            "http://localhost:33703/blockchain/amm-quant/"
           ]
         }
       ]
@@ -88,16 +88,16 @@
     {
       "@type": "Article",
       "isPartOf": {
-        "@id": "http://localhost:38361/blockchain/amm-quant/#webpage"
+        "@id": "http://localhost:33703/blockchain/amm-quant/#webpage"
       },
       "mainEntityOfPage": {
-        "@id": "http://localhost:38361/blockchain/amm-quant/#webpage"
+        "@id": "http://localhost:33703/blockchain/amm-quant/#webpage"
       },
       "headline": "An introduction to the quantitative study of AMMs",
       "datePublished": "2026-04-01T12:00:00+00:00",
       "dateModified": "2026-04-01T12:00:00+00:00",
       "publisher": {
-        "@id": "http://localhost:38361/#author"
+        "@id": "http://localhost:33703/#author"
       },
       "keywords": [
       ],
@@ -113,7 +113,7 @@
           "@type": "CommentAction",
           "name": "Comment",
           "target": [
-            "http://localhost:38361/blockchain/amm-quant/#comments"
+            "http://localhost:33703/blockchain/amm-quant/#comments"
           ]
         }
       ]
@@ -195,12 +195,12 @@ Below, we present a chart with the results of the simulation for 2025, along wit
 <p>Income from arbitrage flow is directly related to volatility. Therefore, roughly speaking, the higher its rate, the greater the risk from price divergence. By contrast, income from organic flow represents pure gain.</p>
 <p>Let us emphasize that the green line represents the evolution of a liquidity position in a hypothetical AMM with the same design but without any traction beyond arbitrage activity. For this reason, the methodology provides an interesting metric for assessing the performance of the pool.</p>
 <h2 id="the-choice-of-a-benchmark">The choice of a benchmark</h2>
-<p>In the influential paper &ldquo;Automated Market Making and Loss-Versus-Rebalancing&rdquo;, the authors propose the <em>Rebalancing</em> position as a universal benchmark for AMMs. In short, this is a hypothetical position that evolves by doing rebalancing swaps at the market price with no fees. The <em>Rebalancing</em> position necessarily outperforms the <em>arb-only</em> position (or &ldquo;pure arbitrage&rdquo;) considered above, since the latter operates at a strictly worse price. We can add the <em>Rebalancing</em> position to the last plot of relative valuations during 2025.</p>
+<p>In the influential paper &ldquo;Automated Market Making and Loss-Versus-Rebalancing&rdquo;, the authors propose the <em>Rebalancing</em> position as a universal benchmark for AMMs. In short, this is a hypothetical position that evolves by executing rebalancing swaps at the market price with no fees. The <em>Rebalancing</em> position necessarily outperforms the <em>Arb-only</em> position (or &ldquo;pure arbitrage&rdquo;) considered above, since the latter operates at a strictly worse price. We can add the <em>Rebalancing</em> position to the previous plot of relative valuations during 2025.</p>
 <p align="center"> <img src="/images/quant-chart-c.png" alt="Simulation" width="500"> </p>
-<p>As expected, it also displays almost linear behaviour relative to <em>feeless pool</em>.
-A nice feature of the <em>Rebalancing</em> position is that it requires no parameters other than the block frequency. Its evolution is determined from the price sequence alone. This is an advantage compared to <em>arb only</em>, for which the gas cost needs to be estimated.</p>
-<p>At this point, it seems pertinent to observe that the fact that a particular AMM performs below <em>Rebalancing</em> does not necessarily mean that the LP is losing money in absolute terms. For instance, the LP might be interested in beating <em>Hold</em> or another independent benchmark.</p>
-<p>See also [3], [4], [5] for different perspectives on this topic and data analysis.</p>
+<p>As expected, it also exhibits almost linear behaviour relative to <em>Feeless pool</em>.
+A nice feature of the <em>Rebalancing</em> position is that it requires no parameters other than the block frequency. Its evolution is determined by the price sequence alone. This is an advantage over the <em>Arb only</em> benchmark, for which the gas cost must be estimated.</p>
+<p>At this point, it is worth noting that the fact that a particular AMM performs below <em>Rebalancing</em> does not necessarily mean that the LP is losing money in absolute terms. For instance, the LP may be interested in outperforming <em>Hold</em> or another independent benchmark.</p>
+<p>See also [3], [4], [5] for alternative perspectives and further data analysis on this topic.</p>
 <h2 id="pool-vs-rebalancing-under-activated-protocol-fees">Pool vs. Rebalancing Under Activated Protocol Fees</h2>
 <p><em>&ldquo;LVR (loss-versus-rebalancing) can be used by AMM protocol designers for guidance to set fees. This is because in a competitive market for liquidity provision, there should be no excess profits for LPs, and hence fees should balance with LVR.</em>&rdquo;</p>
 <p>The quote is taken from [2].</p>
