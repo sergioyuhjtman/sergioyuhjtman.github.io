@@ -1,26 +1,27 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blockchain/</loc>
+    <loc>http://localhost:38361/blockchain/</loc>
     <lastmod>2026-04-01T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blockchain/amm-approach/</loc>
+    <loc>http://localhost:38361/blockchain/amm-quant/</loc>
     <lastmod>2026-04-01T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:38361/</loc>
     <lastmod>2026-04-01T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
+    <loc>http://localhost:38361/papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/psychology/</loc>
+    <loc>http://localhost:38361/psychology/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:38361/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/papers/procacci-yuhjtman/</loc>
+    <loc>http://localhost:38361/papers/procacci-yuhjtman/</loc>
   </url><url>
-    <loc>http://localhost:1313/papers/afy/</loc>
+    <loc>http://localhost:38361/papers/afy/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:38361/tags/</loc>
   </url>
 </urlset>
