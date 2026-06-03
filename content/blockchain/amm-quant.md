@@ -14,7 +14,7 @@ Sergio A. Yuhjtman - June 2026
 
 ## Introduction
 
-The main motivation behind this informal note is to contribute to the field of Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a very small swap fee. Of course, this DEX utopia wouldn't solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal. As a related example, consider the small swap spreads (~0.05%) observed in current stablecoin foreign-exchange pools.
+The main motivation behind this informal note is to contribute to the field of Decentralized Exchange (DEX). In an ideal world, a human should be able to exchange money almost instantly without intermediaries, other than a blockchain that charges gas costs and a very small swap fee. Of course, this DEX utopia wouldn't solve famines, poverty or wars, but it is a significant economic problem that we can tackle and perhaps even solve. The content here serves as a reminder that we have made substantial progress toward this goal. If there is any doubt about this, consider the small swap spreads (~0.05%) observed in current stablecoin foreign-exchange pools.
 
 By analyzing an emblematic pool, we see that the original purpose of the simplest type of AMM has been fulfilled: the incentives for providing liquidity work as intended. We do not aim to provide comprehensive evidence for this claim in general. On the contrary, for the sake of concreteness and simplicity, we focus on [Uniswap V2's USDC/ETH pool](https://etherscan.io/address/0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc), a constant product AMM with a swap fee of 0.3%.
 
@@ -59,7 +59,7 @@ In the influential paper "Automated Market Making and Loss-Versus-Rebalancing", 
 <p align="center"> <img src="/images/quant-chart-c.png" alt="Simulation" width="500"> </p>
 
 As expected, it also exhibits almost linear behaviour relative to _Feeless pool_.
-A nice feature of the _Rebalancing_ position is that it requires no parameters other than the block frequency. Its evolution is determined by the price sequence alone. This is an advantage over the _Arb only_ benchmark, for which the gas cost must be estimated.
+A nice feature of the _Rebalancing_ position is that it requires no parameters other than the block frequency. Its evolution is determined by the price sequence alone. This is an advantage over the _Arb-only_ benchmark, for which the gas cost must be estimated.
 
 At this point, it is worth noting that the fact that a particular AMM performs below _Rebalancing_ does not necessarily mean that the LP is losing money in absolute terms. For instance, the LP may be interested in outperforming _Hold_ or another independent benchmark.
 
