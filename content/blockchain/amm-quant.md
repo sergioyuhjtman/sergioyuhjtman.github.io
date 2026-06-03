@@ -98,3 +98,5 @@ Loss-versus-Rebalancing"](https://arxiv.org/abs/2410.23404)
 
 ## Acknowledgements
 I am deeply grateful to [Balancer](https://balancer.fi/), where I grew professionally over three years. Special thanks to Juan Ignacio Ubeira for his valuable feedback on an earlier draft.
+
+Thank you for reading! Feel free to leave your comments in this [thread](https://x.com/Syuhjtman/status/2062224196747321357).
